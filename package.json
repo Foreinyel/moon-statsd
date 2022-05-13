@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "node-statsd": "^0.1.1"
+    "node-statsd": "^0.1.1",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
