@@ -1,10 +1,8 @@
-'use strict';
+"use strict";
 
 /**
- * egg-@hemyn/moon-statsd default config
- * @member Config#@hemyn/moonStatsd
+ * @hemyn/moon-statsd default config
+ * @member Config#statsd
  * @property {String} SOME_KEY - some description
  */
-exports.@hemyn/moonStatsd = {
-
-};
+exports.statsd = {};
