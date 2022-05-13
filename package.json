@@ -1,6 +1,6 @@
 {
   "name": "@hemyn/moon-statsd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "statsd"
@@ -34,7 +34,8 @@
     "lint": "eslint .",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "autod": "autod",
+    "release": "standard-version"
   },
   "files": [
     "app.js",
